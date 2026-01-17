@@ -17,10 +17,14 @@ The plots are the demonstration of spacecraft rendezvous and docking error diagr
     muted        # GitHub要求静音才能自动播放
     autoplay     # 自动播放（需配合muted）
     loop         # 循环播放（适合演示视频）
+
+https://github.com/user-attachments/assets/6848844e-0361-4ef7-b151-5a388fa10f5e
+
+
     preload="metadata"  # 仅预加载元数据，加快加载速度
   >
     <source 
-      src="https://github.com/user-attachments/assets/a74a17e4-64e5-4703-8c25-3ed9f014a6aa" 
+      src="https://github.com/user-attachments/assets/6848844e-0361-4ef7-b151-5a388fa10f5" 
       type="video/mp4"  # 声明视频格式（GitHub拖拽上传默认是MP4）
     >
     您的浏览器不支持HTML5视频播放，请复制链接在新窗口打开：https://github.com/user-attachments/assets/a74a17e4-64e5-4703-8c25-3ed9f014a6aa
