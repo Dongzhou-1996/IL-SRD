@@ -10,11 +10,25 @@ Imitation learning-based spacecraft rendezvous and docking method with Expert De
 
 The video demonstrates spacecraft rendezvous and docking maneuvers under different control methods.
 We compare the proposed **IL-SRD** controller with **Model Predictive Control (MPC)**, which is also
-used to generate the expert demonstrations for imitation learning.
+used to generate the expert demonstrations for imitation learning. Other methods include **PID**, **SAC**, **D4PG** and **Vanilla BC** are also compared.
 
 As shown in the video, IL-SRD achieves performance comparable to MPC in terms of rendezvous and
 docking accuracy, while successfully reproducing the expert behavior learned from demonstrations.
 
 https://github.com/user-attachments/assets/6848844e-0361-4ef7-b151-5a388fa10f5e
-# Guidence
-Both the train code and evaluation code are included in train.py, dataset is included in dataset_2. There is already a trained model in model_set, just change the directory in the eval code is able to directly run evaluation. 
+## 🚀 Training and Evaluation
+
+### Code Structure
+- `train.py`  
+  Contains both **training** and **evaluation** code.
+- `dataset_2/`  
+  Directory containing the dataset.
+- `model_set/`  
+  Directory containing a **pre-trained model**.
+
+---
+
+### 🔧 Training
+To train the model from scratch, simply run:
+```bash
+python train.py
